@@ -1,1 +1,75 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pokedex</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon pokebola -->
+    <link rel="shortcut icon" type="image/png" href="icon/favicon.ico" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="pokemones">
+        <h1 class="center">Pokédex</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <form class="col s12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">search</i>
+                                <input placeholder="" type="text" class="validate">
+                            </div>
+                            <div class="input-field col s3">
+                            </div>
+                            <div class="input-field col s3">
+                                <a class="waves-effect waves-light btn">A - Z</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Aquí van los div pokemon -->
+        <div class="row">
+            <div class="pokemon">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- estructura del modal para los pokemones -->
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <div class="row" id="modal-content">
+                    <!-- contenido del modal -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Ok</a>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
